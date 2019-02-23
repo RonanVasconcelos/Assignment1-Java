@@ -155,8 +155,8 @@ public class Assignment1 {
 
 
         String result = String.format("Square: %.0f\n" +
-                "Cube: %.0f\n" +
-                "Fourth power: %.0f", square, cube, fourthPower);
+                                    "Cube: %.0f\n" +
+                                    "Fourth power: %.0f", square, cube, fourthPower);
         return result;
     }
 
@@ -191,12 +191,12 @@ public class Assignment1 {
         int min = Math.min(firstInteger, secondInteger);
 
         String result = String.format("Sum of two integers: %d" +
-                "\nDifference of two integers: %d" +
-                "\nProduct of two integers: %d" +
-                "\nAverage of two integers: %.2f" +
-                "\nDistance of two integers: %d" +
-                "\nMax integer: %d" +
-                "\nMin integer: %d", sum, dif, mult, med, dist, max, min);
+                        "\nDifference of two integers: %d" +
+                        "\nProduct of two integers: %d" +
+                        "\nAverage of two integers: %.2f" +
+                        "\nDistance of two integers: %d" +
+                        "\nMax integer: %d" +
+                        "\nMin integer: %d", sum, dif, mult, med, dist, max, min);
         return result;
     }
 }
